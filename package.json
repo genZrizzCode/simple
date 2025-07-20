@@ -1,13 +1,20 @@
 {
   "name": "simple",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple CLI tool",
   "main": "index.js",
   "bin": {
-    "Hello": "./cmds/hello.js",
-    "help": "./cmds/help.js"
+    "simple": "./index.js"
   },
-  "keywords": ["cli","simple","easy","general"],
+  "keywords": [
+    "cli",
+    "simple",
+    "easy",
+    "general"
+  ],
   "author": "genZrizzCode",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }

@@ -1,1 +1,22 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux / common editor backups
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
