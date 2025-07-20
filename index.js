@@ -9,6 +9,8 @@ switch (cmd) {
   case 'Hello':
     require('./cmds/hello.js');
     break;
+  case 'ping':
+    require('./cmds/ping.js')
   default:
     console.log(`Unknown command: ${cmd}`);
     console.log(`Try: simple help`);
