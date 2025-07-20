@@ -1,0 +1,12 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "A simple CLI tool",
+  "main": "index.js",
+  "bin": {
+    "Hello": "./index.js"
+  },
+  "keywords": ["cli","simple","easy","general"],
+  "author": "genZrizzCode",
+  "license": "MIT"
+}
