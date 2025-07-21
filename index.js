@@ -22,7 +22,10 @@ switch (cmd) {
     import('./cmds/cal.js').then((mod) => mod.default?.());
     break;
   case 'calc':
-    import('./cmds/calc.js').then((mod) => mod.default?.());
+    import('./cmds/calc.js').then((module) => {
+      const args = process.argv.slice(3); // skip 'node', 'index.js', 'calc'
+      module.default(args);
+    });
     break;
   case 'reverse':
     import('./cmds/reverse.js').then((mod) => mod.default?.());
