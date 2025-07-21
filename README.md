@@ -26,9 +26,9 @@ simple weather San Francisco
 To install this CLI, run `npm i simplisticli` in your terminal or go to [the npm page](https://www.npmjs.com/package/simplisticli)
 
 ## Websites
-Mainpage: [simplisticli](https://simplisticli.pages.dev)
-Github Repo: [simplistiCLI - Github](https://github.com/genZrizzCode/simplistiCLI)
-npm Package: [simplistiCLI - npm package](https://www.npmjs.com/package/simplisticli)
+- Mainpage: [simplisticli](https://simplisticli.pages.dev)
+- Github Repo: [simplistiCLI - Github](https://github.com/genZrizzCode/simplistiCLI)
+- npm Package: [simplistiCLI - npm package](https://www.npmjs.com/package/simplisticli)
 
 ## Contributing
 Feel free to open issues or pull requests! This project is meant to be a foundation for your own CLI ideas.
