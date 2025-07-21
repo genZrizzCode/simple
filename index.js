@@ -34,10 +34,10 @@ switch (cmd) {
     import('./cmds/cli-stats.js').then((mod) => mod.default?.());
     break;
   case 'weather':
-    import('./cmds/weather.js').then((mod) => mod.default?.());
+    import('./cmds/weather.js').then((mod) => mod.default?.(process.argv.slice(3)));
     break;
   case 'random-int':
-    import('./cmds/random-int.js').then((mod) => mod.default?.());
+    import('./cmds/random-int.js').then((mod) => mod.default?.(process.argv.slice(3)));
     break;
   case 'echo':
     import('./cmds/echo.js').then((mod) => mod.default?.());
