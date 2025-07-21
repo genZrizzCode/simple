@@ -42,6 +42,12 @@ switch (cmd) {
   case 'echo':
     import('./cmds/echo.js').then((mod) => mod.default?.());
     break;
+  case 'but-better':
+    import('./cmds/but-better.js').then((mod) => mod.default?.());
+    break;
+  case 'support':
+    import('./cmds/but-better.js').then((mod) => mod.default?.());
+    break;
   default:
     console.log(`Unknown command: ${cmd}`);
     console.log(`Try: simple help`);
