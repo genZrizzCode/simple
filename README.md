@@ -21,6 +21,12 @@ simple cal
 simple weather San Francisco
 ```
 
+## Intalling
+To install this CLI, run `npm i simplisticli` in your terminal or go to [the npm page](https://www.npmjs.com/package/simplisticli)
+
+## Website
+[simplisticli](https://simplisticli.pages.dev)
+
 ## Contributing
 Feel free to open issues or pull requests! This project is meant to be a foundation for your own CLI ideas.
 
