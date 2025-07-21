@@ -1,6 +1,6 @@
-# Simple CLI
+# SimplistiCLI
 
-**simple-cli** is an open-source CLI framework designed for building straightforward command-line tools with ease. You are free to fork this project and mold it into your own CLI creation—customize, extend, and make it your own!
+**simplistiCLI** is an open-source CLI framework designed for building straightforward command-line tools with ease. You are free to fork this project and mold it into your own CLI creation—customize, extend, and make it your own!
 
 ## Features
 - Minimal, easy-to-understand structure
