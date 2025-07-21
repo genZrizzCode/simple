@@ -4,10 +4,10 @@ const [,, cmd] = process.argv;
 
 switch (cmd) {
   case 'help':
-    require('./cmds/help.js');
+    import('./cmds/help.js').then((mod) => mod.default?.());
     break;
   case 'Hello':
-    require('./cmds/hello.js');
+    import('./cmds/hello.js').then((mod) =>mod.default?.());
     break;
   case 'ping':
     import('./cmds/ping.js').then((module) => {
