@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import chalk from 'chalk';
+
 const now = new Date();
 const year = now.getFullYear();
 const month = now.getMonth(); // 0-indexed
@@ -14,7 +16,11 @@ console.log('Su Mo Tu We Th Fr Sa');
 
 let line = '   '.repeat(firstDay);
 for (let day = 1; day <= daysInMonth; day++) {
-  line += day.toString().padStart(2, ' ') + ' ';
+  let dayStr = day.toString().padStart(2, ' ');
+  if (day === now.getDate()) {
+    dayStr = chalk.bgWhite.black(dayStr);
+  }
+  line += dayStr + ' ';
   if ((firstDay + day) % 7 === 0 || day === daysInMonth) {
     console.log(line.trimEnd());
     line = '';

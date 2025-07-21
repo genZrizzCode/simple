@@ -23,12 +23,12 @@ switch (cmd) {
     break;
   case 'calc':
     import('./cmds/calc.js').then((module) => {
-      const args = process.argv.slice(3); // skip 'node', 'index.js', 'calc'
+      const args = process.argv.slice(3);
       module.default(args);
     });
     break;
   case 'reverse':
-    import('./cmds/reverse.js').then((mod) => mod.default?.());
+    import('./cmds/reverse.js').then((mod) => mod.default?.(process.argv.slice(3)));
     break;
   case 'cli-stats':
     import('./cmds/cli-stats.js').then((mod) => mod.default?.());
