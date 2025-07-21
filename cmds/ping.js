@@ -3,7 +3,7 @@
 import chalk from 'chalk';
 import { exec } from 'child_process';
 
-export default function ([target = 'example.org']) {
+export default function ([target = 'simplecli.pages.dev/']) {
   // Run the ping command with 1 packet
   exec(`ping -c 1 ${target}`, (err, stdout, stderr) => {
     if (err) {
@@ -11,7 +11,6 @@ export default function ([target = 'example.org']) {
       process.exit(1);
     }
 
-    // Look for the time=123.456 ms part
     const match = stdout.match(/time=([\d.]+) ms/);
     if (match) {
       const pingTime = match[1];
