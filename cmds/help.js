@@ -14,4 +14,4 @@ console.log("random-int [min] [max]: Prints a random integer between min and max
 console.log("weather [city] (--imperial or -i): Shows the current weather for a city (defaults to Los Angeles in metric).\n")
 console.log("cli-stats: Shows project info and how many times this command has been run globally.\n")
 console.log("but-better: Shows a link to the GitHub repository for this CLI.\n")
-console.log("support: Shows a link to the GitHub repository issuesfor this CLI.\n")
+console.log("support: Shows a link to the GitHub repository issues for this CLI.\n")

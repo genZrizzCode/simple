@@ -3,7 +3,7 @@
 import chalk from 'chalk';
 import { exec } from 'child_process';
 
-export default function ([target = 'simplisticli.pages.dev/']) {
+export default function ([target = 'simplisticli.pages.dev']) {
   // Run the ping command with 1 packet
   exec(`ping -c 1 ${target}`, (err, stdout, stderr) => {
     if (err) {
