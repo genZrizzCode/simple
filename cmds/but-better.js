@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 
-console.log("Make a pull request at https://github.com/genZrizzCode/simple or start an issue at https://github.com/genZrizzCode/simple/issues!");
+console.log("Make a pull request:");
+console.log("https://github.com/genZrizzCode/simple\n");
+console.log("Or start an issue:");
+console.log("https://github.com/genZrizzCode/simple/issues");
