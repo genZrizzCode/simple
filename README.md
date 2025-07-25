@@ -23,7 +23,7 @@ simple weather San Francisco
 ```
 
 ## Intalling
-To install this CLI, run `npm i simplisticli` in your terminal or go to [the npm page](https://www.npmjs.com/package/simplisticli)
+To install this CLI, run `npm install -g simplisticli` in your terminal or go to [the npm page](https://www.npmjs.com/package/simplisticli)
 
 ## Websites
 - Mainpage: [simplisticli](https://simplisticli.pages.dev)
